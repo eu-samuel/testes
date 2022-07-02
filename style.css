@@ -11,7 +11,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-			background-color: rgb(230, 132, 178);
+	background-color: rgba(230, 132, 178);
 		}
         .form {
             width: 50%;
