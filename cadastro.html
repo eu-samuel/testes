@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang ='pt-br'>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="eu-samuel.github.io/testes/style.css" media="screen" />
+	<meta charset="utf-8">
+	<meta http-equiv= "X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Ong Bichinho Feliz.">
+	<meta name="keywords" content="Adoção animal, ong, ong animal, cachorro, gato">
+	<title>Ong Bichinho Feliz</title>
+</head>
+<body>
+<div class='container'>
+<div class='form-image'>	
+	 	 <img src="https://images2.imgbox.com/a0/de/5PDrKGA9_o.png"></img><br><br></left></div>
+	<div class ='form'>
+		<form action='#'>
+		<div class='form-header'>
+			<div class='title'>
+				<h1>Cadastro de Adotantes</h1>
+		</div>
+		<div class='login-button'>
+			<button><a href='teste.html'>Voltar</a></button>
+			</div></div>
+<div class="input-group">
+	<div class='input-box'>
+		<label for="firstname">Nome completo</label>
+		<input id='firstname' type='text' name="'firstname" placeholder="Digite seu nome" required>
+	</div>
+			<div class='input-box'>
+				<label for="idade">Data de nascimento</label>
+				<input id='age' type='date' name="idade" placeholder="Selecione sua data" required>
+		</div>
+		<div class='input-box'>
+			<label for="email">E-mail</label>
+			<input id='email' type='text' name="email" placeholder="Digite seu email" required>
+	</div>
+	<div class='input-box'>
+		<label for="telefone">Telefone (Apenas Números)</label>
+		<input id='phone' type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" name="phone" placeholder="(xx) xxxxx-xxxx" required>
+</div>
+<div class='input-box'>
+	<label for="location">Endereço completo</label>
+	<input id='address' type='text' name="address" placeholder="Digite seu endereço" required>
+</div>
+<div class='input-box'>
+	<label for="lastname">Cachorro ou Gato? (Ou ambos)</label>
+			<input id='lastname' type='text' name="lastname" placeholder="Digite sua preferência" required>
+		</div>
+<div class="gender-inputs">
+	<div class="gender-title">
+		<h5><b>Você prefere:</h5></b>
+	</div>
+		<div class="gender-group">
+	<div class ='gender-input'> 
+	<input type="radio" id="dog" name="gender">
+	<label for ="dog">Filhote macho</label>
+	</div>	
+	<div class ='gender-input'> 
+		     <input type="radio" id="dog" name="gender">
+		<label for ="dog">Filhote fêmea</label>
+		</div>
+	<div class ='gender-input'> 
+		     <input type="radio" id="cat" name="gender">
+	<label for ="cat">Adulto macho</label>
+	</div>
+	<div class ='gender-input'> 
+		     <input type="radio" id="dog" name="gender">
+		<label for ="dog">Adulto fêmea</label>
+		</div>
+	<div class ='gender-input'> 
+		     <input type="radio" id="ambos" name="gender">
+	<label for ="ambos">Ambos</label>
+	</div>
+</div>
+	<div class="continue-button"><button><a href='#'>Enviar</a></button></div></div>
+</body>
+</html>
