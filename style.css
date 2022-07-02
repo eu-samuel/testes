@@ -70,7 +70,7 @@
         .form-header h1::after {
             content: '';
             display: block;
-            width: 21rem;
+            width: 18rem;
             height: 0.3rem;
             background-color:#FF5EAE;
             margin: 0 auto;
