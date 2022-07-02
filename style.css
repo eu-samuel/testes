@@ -3,7 +3,7 @@
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'poppinsregular';
 		}
 		body {
             width: 100%;
@@ -11,8 +11,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-			background-attachment: fixed;
-			background-image: linear-gradient(to bottom, #ffddee, #ffddee, #f7d6e8, #f1bedb);
+			background-color: rgb(74, 11, 40);
 		}
         .form {
             width: 50%;
@@ -70,7 +69,7 @@
         .form-header h1::after {
             content: '';
             display: block;
-            width: 18rem;
+            width: 21rem;
             height: 0.3rem;
             background-color:#FF5EAE;
             margin: 0 auto;
@@ -160,20 +159,26 @@
                 width: 100%;
             }
         } 
-        @media screen and (max-width: 1064px) {
+        @media screen and (max-width: 760px) {
             .container {
                  width: 90%;
-                 height: auto;
+                 height: 0 auto;
+                 margin-top: none;
+                 margin-bottom: 10px;
              }
+             form{
+                margin:0 auto;
+                width: 100%;
+            }
          .input-group {
              flex-direction: column;
              overflow-y: scroll;
              flex-wrap: nowrap;
-             max-height: 10rem;
-             padding-right: 5rem;
+             max-height: 30rem;
+             padding-right: 2rem;
          }
      .gender-inputs {
-         margin-top: 2rem;
+         margin-top: 0.4rem;
      }
      .gender-group {
          flex-direction: column;
